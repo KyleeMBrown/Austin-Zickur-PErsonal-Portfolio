@@ -161,7 +161,7 @@ width: 32%;
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
         /*HomePage*/
     .nav-list {
         display: none;
