@@ -1,0 +1,734 @@
+@media screen and (max-width: 1300px) {
+    /*HomePage*/
+    .future {
+        font-size: 150px;
+    }
+
+    .future2 {
+        font-size: 150px;
+        right: 5px;
+        margin-top: 100px;
+        letter-spacing: 13px;
+    }
+        /*HomePage*/
+        
+        /*Contact*/
+
+        /*Contact*/
+}
+
+@media  screen and (max-width: 1280px) {
+
+.course-nav {
+    width: 100%;
+    position: absolute;
+    top: 18%;
+ 
+}
+
+.course-nav div{
+    font-size: 12px;
+ 
+}
+}
+
+@media  screen and (max-width: 1290px) {
+    #rocket-3{
+        left: 2%;
+    }
+    #rocket-1{
+        left: 15%;
+    }
+
+}
+@media screen and (max-width: 1194px){
+
+    .download1,
+    .download2{
+        display: inline;
+        position: absolute;
+        top: 61%;
+    }
+
+
+   .project-info-card{
+    width: 0;
+    box-shadow: none;
+   }
+   .projects-container button:hover{
+    cursor: auto;
+    }
+.projects-container button{
+width: 32%;
+
+}
+   .p-info-title,
+   .p-info-summary,
+   .p-info-back
+   {
+    display: none;
+   }
+   #left,
+   #right,
+   #right-2,
+   #left-2{
+    background-color: transparent;
+    color:transparent;
+   }
+   #left:hover,
+   #right:hover,
+   #right-2:hover,
+   #left-2:hover{
+    background-color: transparent;
+    color:transparent;
+   }
+#project-video{
+   border: none;
+   box-shadow: none;
+}
+.p-fullscreen,
+.p-fullscreen2{
+    transform: scale(0%);
+}
+
+.download1,
+.download2,
+.download3{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    border:  none;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10px;
+    top: 60%;
+    display: inline;
+}
+
+.download4,
+.download5,
+.download6{
+    position:absolute;
+    top: 95.9%;
+    background-color: white;
+    border-radius: 20px;
+    border:  none;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10px;
+    display: inline;
+}
+
+
+.download1:hover,
+.download2:hover,
+.download3:hover,
+.download4:hover,
+.download5:hover,
+.download6:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    transition: background-color .3s ease;
+    box-shadow: 1px 1px 10px black;
+}
+
+.download1:visited,
+.download2:visited,
+.download3:visited,
+.download4:visited,
+.download5:visited,
+.download6:visited{
+   color: rgb(106, 102, 102);
+}
+
+.download1,
+.download4{
+    left: 13%; 
+    
+}
+.download2,
+.download5{
+    left: 48%; 
+}
+
+.download3,
+.download6{
+    left: 81%; 
+}
+
+
+
+}
+
+@media screen and (max-width: 1150px) {
+        /*HomePage*/
+    .nav-list {
+        display: none;
+    }
+
+    .menu {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 8%;
+        right: 2%;
+        width: 3%;
+        height: 15%;
+        border-radius: 15px;
+        box-shadow: inset 0 0 5px #162B6F;
+        padding: 10px;
+
+    }
+
+    .menu:hover {
+        box-shadow: 2px 2px 5px #162B6F;
+        ;
+        cursor: pointer;
+    }
+
+    .menu:active {
+        box-shadow: inset 0 0 5px #162B6F;
+        ;
+        cursor: pointer;
+    }
+
+    .menu div {
+        width: 80%;
+        background-color: black;
+        height: 3px;
+    }
+
+    .link-holder {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 8%;
+        border-radius: 8px;
+        box-shadow: 1px 1px 5px;
+        width: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        justify-content: space-evenly;
+    }
+
+    .link-holder a{
+        margin: 0px 2px 0px 2px;
+
+    }
+
+    .link-holder a:hover{
+        cursor: pointer;
+        transform: scale(120%)
+    }
+
+    .link-holder a:active{
+        transform: scale(100%)
+
+    }
+
+
+    .up-arrow {
+        position: absolute;
+        bottom: 0;
+        left: 44%;
+        transform: scaleX(110%);
+        font-weight: 900;
+        font-family: 'Oswald';
+        box-shadow: 0px 0px 3px black;
+        height: 5%;
+        width: 15%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px;
+        color:  black;
+        transition: background-color .3s linear;
+    }
+
+    .up-arrow:hover {
+        box-shadow: 1px 1px 15px white;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.574);
+    }
+
+    .d-menu {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-evenly;
+        top: -100%;
+        width: 35%;
+        height: 100%;
+        background-color: rgba(59, 59, 59, 0.136);
+        right: 0;
+        z-index: 3;
+        border-radius: 5px 0px 0px 5px;
+        backdrop-filter: blur(15px);
+
+
+    }
+
+    .d-menu-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        border: 0px solid black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 70%;
+
+    }
+
+
+    .d-menu-list li {
+
+        width: 100%;
+        border: 0px red dotted;
+        text-align: center;
+
+    }
+
+    .d-menu-list li a {
+        text-decoration: none;
+        font-size: 40px;
+        color: #162B6F;
+        font-family: 'Oswald';
+        transition: background-color .4s ease;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.468);
+    }
+
+    .d-menu-list li a:hover {
+        border-radius: 10px;
+        background-color: white;
+        padding: 15px;
+        box-shadow: 1px 1px 10px white;
+    }
+
+    .d-menu-list li:active {
+        transform: scale(110%);
+    }
+        /*HomePage*/
+
+        /*About*/
+.y-axis{
+    font-size: 7px;
+}
+.course-nav div {
+    font-size: 10px; 
+}
+
+.course-nav  {
+    top: 16.1%; 
+}
+   /*About*/
+}
+@media screen and (max-width: 1100px) {
+        /*HomePage*/
+    .applied-structures-bullets ul {
+        font-size: 14px;
+
+    }
+
+    .fluid-mechanics-bullets ul {
+        font-size: 14px;
+    }
+
+    .controls-bullets ul {
+        font-size: 12px;
+    }
+
+    .simulation-bullets ul {
+        font-size: 13px;
+    }
+        /*HomePage*/
+
+        /*About*/
+        .y-axis{
+            font-size: 6px;
+        }
+        /*About*/
+        
+}
+
+
+
+@media screen and (max-width: 1500px) {
+        /*HomePage*/
+    .box {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .page-1 {
+        margin-left: 45px;
+        width: 92%;
+    }
+
+    .point-boxes {
+        margin-left: 5px;
+    }
+        /*HomePage*/
+}
+
+
+@media screen and (max-width: 800px) {
+    /*HomePage*/
+    .controls-bullets,
+    .applied-structures-bullets,
+    .fluid-mechanics-bullets,
+    .simulation-bullets {
+        top: 32%;
+        left: 13%;
+        width: 68%;
+    }
+
+    .page-1 {
+        margin-left: 35px;
+        width: 92%;
+    }
+
+    #logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .name {
+        font-size: 40px;
+        top: -35%;
+    }
+
+    .school-info {
+        margin-top: 60px;
+    }
+
+    .future {
+        font-size: 130px;
+    }
+
+    .future2 {
+        font-size: 130px;
+        right: 1.5px;
+        margin-top: 85px;
+        letter-spacing: 9.5px;
+    }
+
+    .box {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .c-pic4,
+    .c-pic3,
+    .c-pic2,
+    .c-pic1,
+    .c-pic5 {
+        display: none;
+    }
+
+    .s-pic4,
+    .s-pic3,
+    .s-pic2,
+    .s-pic1,
+    .s-pic5,
+    .s-pic6 {
+        display: none;
+    }
+
+    .f-pic3,
+    .f-pic2,
+    .f-pic1 {
+        display: none;
+    }
+
+    .a-pic4,
+    .a-pic3,
+    .a-pic2,
+    .a-pic1,
+    .a-vid {
+        display: none;
+    }
+
+.file{
+    font-size: 10.5px;
+}
+  
+    
+        /*HomePage*/
+
+        /*About*/
+        .y-axis{
+            font-size: 5px;
+        }
+        .course-nav div {
+            font-size: 9px;
+        }
+        
+        
+        /*About*/
+        .date{
+            width: 90%;
+        }
+        .name-input{
+            width:90%;
+        }
+        .email{
+            width:90%;
+        }
+}
+
+
+@media screen and (max-width: 700px) {
+        /*HomePage*/
+    #logo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .page-1 {
+        margin-left: 20px;
+        width: 92%;
+    }
+
+    .name {
+        font-size: 40px;
+        top: -35%;
+    }
+
+    .school-info {
+        margin-top: 60px;
+        font-size: 11px;
+    }
+
+    .future {
+        font-size: 90px;
+    }
+
+    .future2 {
+        font-size: 90px;
+        right: -0.5px;
+        margin-top: 63px;
+        letter-spacing: 6px;
+    }
+
+    .box {
+        font-size: 8px;
+        width: 100%;
+        height: 100vh;
+    }
+        /*HomePage*/
+       
+         /*About*/
+         .banner{
+           top:14%;
+            height: 29.1%;
+            background-size: contain;
+            background-repeat: no-repeat;
+         }
+         .y-axis{
+            font-size: 3.5px;
+        }
+        .course-title{
+            width: 65%;
+        }
+        .course-nav div {
+            font-size: 8.6px;
+            padding: 5px;
+        }
+     
+        .course-nav  {
+            top: 18%; 
+        }
+        .all-list li{
+            font-size: 15px;
+        }
+        .summary-dash{
+            height: 86%; 
+        }
+        /*About*/
+        .download2,
+        .download5{
+            left: 46%;
+        }
+        .file{
+            font-size: 9px;
+        }
+        .date{
+            width: 90%;
+        }
+        .name-input{
+            width:90%;
+        }
+        .email{
+            width:90%;
+        }
+}
+
+
+/*Iphone*/
+@media screen and (max-width:390px),(max-width:428px){
+    .d-menu-list li a{
+
+        font-size: 30px;
+        border: 0px red dotted;
+        text-align: center;
+
+    }
+    .future {
+        font-size: 75px;
+    }
+
+    .future2 {
+        font-size: 75px;
+        right: 1px;
+        margin-top: 50px;
+        letter-spacing: 5px;
+    }
+    .page-1 {
+        margin-left: 4%;
+        width: 92%;
+    }
+    .box {
+        font-size: 7px;
+        width: 95%;
+    }
+    .controls-bullets,
+    .applied-structures-bullets,
+    .fluid-mechanics-bullets,
+    .simulation-bullets {
+        bottom: 30%;
+        left: 10%;
+        width: 78%;
+    }
+    .d-menu-list li a{
+
+        font-size: 30px;
+        border: 0px red dotted;
+        text-align: center;
+
+    }
+    .future {
+        font-size: 75px;
+    }
+
+    .future2 {
+        font-size: 75px;
+        right: 1px;
+        margin-top: 50px;
+        letter-spacing: 5px;
+    }
+    .box {
+        font-size: 7px;
+        width: 95%;
+    }
+    .controls-bullets,
+    .applied-structures-bullets,
+    .fluid-mechanics-bullets,
+    .simulation-bullets {
+        bottom: 30%;
+        left: 10%;
+        width: 78%;
+    }
+    .name{
+        position: absolute;
+        margin-top: 40px;
+        left: 120px;
+}
+    .school-info{
+        position:absolute;
+        top: 2px;
+        left: 120px;
+    }
+    .h-info{
+        width:100%;
+    }
+    .link-holder{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*About*/
+    .course-nav div {
+       font-size: 9px;
+       padding: 5px;
+      
+    }
+
+    .course-nav{
+        top: 17%;
+    }
+    .all-courses{
+        top: 37.5%;
+    }
+    .y-axis{
+        font-size: 2.5px;
+    }
+    .y-axis :nth-child(1){
+        bottom: 5%;
+    }
+
+    .download1,
+    .download4{
+        left:10%
+    }
+
+    .download2,
+    .download5{
+            left: 45%;
+        }
+    .download3,
+    .download6{
+    left: 78%;
+    }
+    .file{
+        font-size: 6px;
+    }
+    .contact-me div{
+        font-size: 15px;
+    }
+    .form-wrapper{
+        top: 25%;
+    }
+   
+}
+
+    /*Animations*/
+@keyframes slideDown {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+.animation1 {
+    animation: 2s slideDown ease both;
+}
+
+.animation2 {
+    animation: 1s slideUp ease;
+}
+ /*Animations*/

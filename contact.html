@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin Z Personal Portfolio</title>
+  <link href="contact.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:900' rel='stylesheet'>
+  <link rel="stylesheet" href="Responsiveness.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div id="dropdowm-menu" class="d-menu">
+    <ul class="d-menu-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <div class="link-holder">
+      <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+        src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+        alt=""></a>
+    </div>
+    <h1 id='up-arrow' onclick="slideUp()" class="up-arrow">^</h1>
+  </div>
+  <nav>
+    <div class="h-info">
+      <img id="logo" height="170px" width="170px" src="images/1567478782653-_3_.png" />
+      <diiv class="words">
+        <p class="name">Austin Zickur</p>
+        <p class="school-info">
+          BSLAS in Astronomy at University of Illinois Urbana-Champaign<br />Strong
+          Background in Aerospace Engineering (3 years)
+        </p>
+      </diiv>
+    </div>
+    <div onclick="dropDown()" id="menu" class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+      <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+          src="file:///Users/kyleebrown/Downloads/linkedin-logo-linkedin-icon-transparent-free-png%20(1).webp"
+          alt=""></a>
+  </nav>
+  <main>
+    <div class="form-wrapper">
+      <div class="form-bg">
+      </div>
+      <form action="https://formsubmit.co/zickuraustin.work@gmail.com" enctype="multipart/form-data" method="POST"
+        id="contact" class="contact-me">
+        <div>Contact Me</div>
+        <label for="name-input">Name:</label>
+        <input name="name" id='name-input' placeholder="Type here" class="name-input" type="text">
+        <label for="email">Email:</label>
+        <input name="email" placeholder="Example@gmail.com" type="email" class="email">
+        <label for="datetime">Schedule a 1-on-1 Meeting:</label>
+        <input name="datetime" type="datetime-local" class="date">
+        <label for="file">Attach Files Here:</label>
+        <input name="attachment" type="file" class="file">
+        <label for="message-board">Message Board:</label>
+        <input type="hidden" name="_template" value="box">
+        <textarea name="message" class="message-board" id="message-board" cols="10" rows="5"></textarea>
+        <input class="c-submit" type="submit" value="SUBMIT">
+      </form>
+      <section></section>
+    </div>
+  </main>
+</body>
+
+</html>

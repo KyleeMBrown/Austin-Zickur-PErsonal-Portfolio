@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin Z Personal Portfolio</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:900' rel='stylesheet'>
+  <link rel="stylesheet" href="Responsiveness.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="dropdowm-menu" class="d-menu">
+      <ul class="d-menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+      <div class="link-holder">
+        <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+          src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+          alt=""></a>
+  
+      </div>
+      <h1 id='up-arrow' onclick="slideUp()" class="up-arrow">^</h1>
+    </div>
+  <nav>
+    <div class="h-info">
+      <img id="logo" height="170px" width="170px" src="images/1567478782653-_3_.png" />
+      <diiv class="words">
+        <p class="name">Austin Zickur</p>
+        <p class="school-info">
+          BSLAS in Astronomy at University of Illinois Urbana-Champaign<br />Strong
+          Background in Aerospace Engineering (3 years)
+        </p>
+      </diiv>
+    </div>
+    <div onclick="dropDown()" id="menu" class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  
+    <ul class="nav-list">
+      <li><a href="">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+      <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+          src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+          alt=""></a>
+
+    </ul>      
+  </nav>
+  
+  <main>
+    <div class="section-1" name="Future">
+      <h1 class="future">FUTURE</h1>
+      <h1 class="future2">FUTURE</h1>
+    </div>
+    <div class="section-2">
+      <div class="page-1">
+        <div class="points">
+          <div class="point-boxes">
+            <div onmouseover="revealControlinfo()" onmouseout="hideControlinfo()" id="box-1" class="box">
+              <h1 class="box-title">Control Systems</h1>
+            </div>
+            <div onmouseover="revealSimulationinfo()" onmouseout="hideSimulationinfo()" id="'box-2" class="box">
+              <h1 class="box-title">Simulation</h1>
+            </div>
+            <div onmouseover="revealFluidinfo()" onmouseout="hideFluidinfo()" id="box-3" class="box">
+              <h1 class="box-title">Fluid Mechanics</h1>
+            </div>
+            <div onmouseover="revealAppliedinfo()" onmouseout="hideAppliedinfo()" id="box-4" class="box">
+              <h1  class="box-title">Applied Structures
+              </h1>
+            </div>
+            <div class="points-info">
+              <div id="control" class="control-systems">
+                <img src="images/Screenshot 2023-09-19 at 7.15.20 AM.png"
+                  class="c-pic1"></img>
+                <img src="images/Screenshot 2023-09-19 at 7.35.35 AM.png"
+                  class="c-pic2"></img>
+                <img src="images/Untitled.png" class="c-pic3"></img>
+                <img src="images/image.png" class="c-pic4"></img>
+                <img src="images/Screenshot 2023-09-19 at 11.21.16 AM.png"
+                  class="c-pic5"></img>
+                <div class="controls-bullets">
+                  <ul>
+                    <li>Matrix Operations, Spectral Theory, & State Space</li>
+                    <li>State Feedback, LQR, & Observability</li>
+                    <li>Engineering Requirements & Data Analysis</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="simulation" class="simulation">
+                <img src="images/output.png" class="s-pic1"></img>
+                <img src="images/Screenshot 2023-09-19 at 10.28.12 PM.png"
+                  class="s-pic2"></img>
+                <img src="images/Screenshot 2023-09-19 at 10.39.14 PM.png"
+                  class="s-pic3"></img>
+                <img src="images/Screenshot 2023-09-19 at 10.46.46 PM.png"
+                  class="s-pic4"></img>
+                <img src="images/Screenshot 2023-09-19 at 10.36.49 PM.png"
+                  class="s-pic5"></img>
+                <img src="images/Screenshot 2023-09-19 at 10.35.12 PM.png"
+                  class="s-pic6"></img>
+                <div class="simulation-bullets">
+                  <ul>
+                    <li>Control Systems</li>
+                    <li>Astrophysics</li>
+                    <li>Mercury I, Mercury II, & Apollo Missions</li>
+                  </ul>
+                </div>
+              </div>
+              <div id=fluid-mechanics class="fluid-mechanics">          
+                <img src="images/Untitled design (18).png" class="f-pic1"></img>
+                  <img src="images/Screenshot 2023-09-20 at 3.33.56 AM.png" class="f-pic2"></img>
+                  <img src="images/Screenshot 2023-09-20 at 3.39.06 AM.png" class="f-pic3"></img>
+                <div class="fluid-mechanics-bullets">
+                  <ul>
+                    <li>Parachute Performance</li>
+                    <li>UAV Wing Design</li>
+                  </ul>
+                </div>
+              </div>
+              <div id=applied-structures class="applied-structures">
+                <img src="images/IMG_0051 (1).png" class="a-pic1"></img>
+                <img src="images/Screenshot 2023-09-25 at 8.29.53 AM.png" class="a-pic2"></img>
+                
+                <img src="images/Screenshot 2023-09-20 at 3.41.39 AM.png" class="a-pic4"></img>
+                <video preload="auto" controls muted id="a-vid" src="images/IMG_0061 (1).mp4" type="mp4" class="a-vid"></video>
+                <div class="applied-structures-bullets">
+                  <ul>
+                    <li>Structural Analysis</li>
+                    <li>Loads & Distribution</li>
+                    <li>Fatigue & Basic Fracture Mechanics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

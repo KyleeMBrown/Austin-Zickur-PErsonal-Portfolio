@@ -1,0 +1,301 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Nav Format */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.d-menu{
+    display:none;
+}
+
+.menu{
+    display:none;
+}
+
+.nav-list {
+    margin-right: 20px;
+    background-color: rgba(255, 166, 0, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.nav-list li {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+
+.nav-list li a {
+    text-decoration: none;
+    color: #162B6F;
+    font-family: 'Avenir';
+    padding: 10px;
+}
+
+
+.nav-list li a:hover {
+background-color: #162b6f26;
+border-radius: 30px;
+padding: 10px;
+}
+
+.h-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 166, 0, 0)
+    
+}
+
+.name{
+    font-family: 'Oswald';font-size: 72px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #162B6F;
+    position: absolute;
+    bottom: 0px;
+}
+
+.school-info {
+    font-size: 16px;
+    bottom: 30px;
+    background-color: rgba(0, 128, 0, 0);
+    margin-top: 100px;
+    color: #162B6F;
+}
+
+.words {
+    background-color: rgba(255, 255, 0, 0);
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+}
+/*Nav Format ^^^*/
+
+/*Contact page*/
+
+main {
+ background-color: #ffffff;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background-image: linear-gradient(to top, #000000, #3b3b3b, #777777ce, #ffffff, #ffffff);
+
+}
+
+.form-wrapper {
+    left: 17%;
+    border: 0px rgb(255, 0, 0) dotted;
+    width: 68%;
+    height: 68%;
+    top: 28%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:5px 5px 10px black;
+    display: flex;
+    position:absolute;
+
+}
+
+.form-bg {
+    border: 0px rgba(47, 0, 255, 0) dotted;
+    width: 40%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    background-image: url('images/mourya-pranay-EwawqhV2Doc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 3px 10px black;
+    left:0;
+}
+
+.contact-me{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border: 2px rgba(255, 0, 0, 0) dotted;
+    right: 4.8%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald';
+    justify-content: space-evenly;
+    font-size:18px;
+    color:  #162B6F;
+    letter-spacing: 1px;
+}
+
+.contact-me div {
+    font-size: 30px;
+    text-align: center;
+    border: black 2px solid;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    letter-spacing: none;
+}
+
+.name-input{
+    width:90%;
+    height: 3.5%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1px solid;
+    transition: box-shadow .3s ease-out;
+    transition: transform  .1s linear;
+}
+
+.name-input:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.207);
+    transform: scaleY(109%);
+    border-bottom:  #162B6F 1.5px solid;
+}
+
+.name-input[type='text']:focus{
+    transform: scaleY(109%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1.5px solid;
+    background-color: rgba(0, 0, 0, 0.275);
+}
+
+.name-input[type='text']{
+    outline: none;
+    padding-left: 5px;
+    letter-spacing: .5px;
+}
+
+.email{
+    width:90%;
+    height: 3.5%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1px solid;
+    transition: box-shadow .3s ease-out;
+    transition: transform  .1s linear;
+}
+
+.email:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.207);
+    transform: scaleY(109%);
+    border-bottom:  #162B6F 1.5px solid;
+}
+
+.email[type='email']:focus{
+    transform: scaleY(109%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1.5px solid;
+    background-color: rgba(0, 0, 0, 0.275);
+}
+
+.email[type='email']{
+    outline:none;
+    padding-left: 5px;
+}
+
+.date{
+    width: 90%;
+    height: 5%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1px solid;
+    transition: box-shadow .3s ease-out;
+    transition: transform  .1s linear;
+}
+
+.date[type='datetime-local']{
+    outline:none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.date[type='datetime-local']:hover{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.207);
+    transform: scaleY(109%);
+    border-bottom:  #162B6F 1.5px solid;
+}
+
+.date[type='datetime-local']:focus{
+    transform: scaleY(109%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1.5px solid;
+    background-color: rgba(0, 0, 0, 0.275);
+}
+
+.message-board{
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1px solid;
+    transition: box-shadow .3s ease-out;
+    transition: transform  .1s linear;
+}
+
+.message-board:hover{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.207);
+    transform: scaleY(109%);
+    border-bottom:  #162B6F 1.5px solid;
+}
+
+.message-board:focus{
+    transform: scaleY(108%);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.207);
+    border-bottom:  #162B6F 1.5px solid;
+    background-color: rgba(0, 0, 0, 0.275);
+    outline:none;
+    padding: 5px;
+}
+
+.file{
+    width: 38%;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.c-submit{
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1px black;
+    font-size: 17px;
+    font-family: 'Oswald';
+    background-color: white;
+    color:#162B6F;
+}
+
+.c-submit:hover{
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    transform: scaleY(105%);
+    cursor: pointer;
+}
+
+.c-submit:active{
+    background-color:rgba(0, 0, 0, 0.275) ;
+    border: solid black 1px;
+}
+
+

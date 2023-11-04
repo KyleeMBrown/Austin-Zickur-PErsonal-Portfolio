@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin Z Personal Portfolio</title>
+    <link href="project.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:900' rel='stylesheet'>
+    <link rel="stylesheet" href="Responsiveness.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="dropdowm-menu" class="d-menu">
+        <ul class="d-menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <div class="link-holder">
+            <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+              src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+              alt=""></a>
+          </div>
+        <h1 id='up-arrow' onclick="slideUp()" class="up-arrow">^</h1>
+    </div>
+    <nav>
+        <div class="h-info">
+            <img id="logo" height="170px" width="170px" src="images/1567478782653-_3_.png" />
+            <diiv class="words">
+                <p class="name">Austin Zickur</p>
+                <p class="school-info">
+                    BSLAS in Astronomy at University of Illinois Urbana-Champaign<br />Strong
+                    Background in Aerospace Engineering (3 years)
+                </p>
+            </diiv>
+        </div>
+        <div onclick="dropDown()" id="menu" class="menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+            <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px"
+                    width="30px" src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp" alt=""></a>
+    </nav>
+    <main>
+        <div class="p-section1">
+            <div class="p-title">
+                <h1 class="p-title-txt">Projects</h1>
+            </div>
+        </div>
+        <div class="p-section2">
+            <div class="projects-container">
+                <div class="p-row-1">
+                    <button onclick="revealStatefeedback()" class="project-1">
+                        <div class="project1-bg1">
+
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">State Feedback LQR Control Design for Simulated Single-Axle Chassis</h3>
+                        </div>
+                    </button>
+                    <button onclick="revealNbody()" class="project-1">
+                        <div class="project1-bg2">
+
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">N-Body Gravitational Simulation Utilizing Simple Iterative Numerical
+                                Method</h3>
+                        </div>
+                    </button>
+                    <button onclick="revealMercury()" class="project-1">
+                        <div class="project1-bg3">
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">Mercury I, Mercury II, and Apollo 8 Kerbal Space Program Mission Builds
+                            </h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="p-row-1">
+                    <button onclick="revealGimbal()" class="project-1">
+                        <div class="project1-bg4">
+
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">Gimbal/Rotor Simulation for State Feedback Controller</h3>
+                        </div>
+                    </button>
+                    <button onclick="revealParachute()" class="project-1">
+                        <div class="project1-bg5">
+
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">Parachute Assessment for Autonomous Mars Landing</h3>
+                        </div>
+                    </button>
+                    <button onclick="revealStress()" class="project-1">
+                        <div class="project1-bg6">
+                        
+                        </div>
+                        <div class="p-txt-cont">
+                            <h3 class="p-txt">Stress Strain Analysis for Aluminum and Steel</h3>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <a class="download1" href="images/Report (4) (1).pdf" target="_blank">Download</a>
+            <a class="download2" target="_blank" href="images/mail-attachment.googleusercontent.com_attachment_u_0__ui=2&ik=45a677f837&attid=0.1&permmsgid=msg-f_1777620701695062904&th=18ab609c25ea3378&view=att&disp=inline&realattid=f_lmso1mjc0&ser=1&saddbat=ANGjdJ97oqe7BSudQqfYV5d2eVpjGdi_6PpuSSuXoNuevt116WHo3ZX.pdf" >Download</a>
+            <a class="download3" href="images/Screenshot 2023-10-12 at 12.12.37 PM.png" target="_blank" >Download</a>
+            <a class="download4" href='images/10defb14-d11b-4bef-8ef0-7bac26663707.pdf' target="_blank">Download</a>
+            <a class="download5" href="images/sodapdf-converted (1).pdf" target="_blank">Download</a>
+            <a class="download6" href="images/ZickurHomework6.pdf" target="_blank">Download</a>
+            <div id="project-info-card" class="project-info-card">
+                <button onclick="fullScreen()" class="p-fullscreen" id="full-screen"><img width="30px" src="images/Fullscreen icon.png"/></button>
+                <button onclick="fullScreenexit()" class="p-fullscreen2"  id="exit-full-screen"><img width="40px" src="images/6407166.png"/></button>
+                <button onclick="projectBackbutton()" id="p-info-back" class="p-info-back">BACK</button>
+                <div id="p-info-title" class="p-info-title"></div>
+                <div id="p-info-summary" class="p-info-summary"></div>
+                <object preload="data" id="p-info-pdf" data="" type="application/pdf" width="40%" height="89.2%" class="p-info-pdf">
+                    <p>Unable to display PDF file. <a id="p-info-backup" class="p-info-backup" href="">Download</a>
+                        instead.</p>
+                </object>
+                <video muted preload="metadata" controls id="project-video" class="project-video" src=""></video>
+                <button onclick="right()" id="right">></button>
+                <button onclick="left()"  id="left">></button>
+                <button onclick="right2()" id="right-2">></button>
+                <button onclick="left2()" id="left-2">></button>
+                <div id="slideshow-1" class="slideshow-1">
+                    <div id="slideshow-1-container" class="slideshow-1-container">
+                        <div>
+                            <div class="rocket-container">
+                                <img id="rocket-1" src="images/Screenshot 2023-10-10 at 6.27.03 PM.png" />
+                            </div>
+                            
+                        </div>
+                        <div><img id="rocket-2" src="images/Screenshot 2023-10-10 at 6.26.03 PM.png" /></div>
+                    </div>
+                </div>
+                <div id="slideshow-2" class="slideshow-2">
+                    <div><img id="rocket-3" src="images/Screenshot 2023-10-12 at 12.12.37 PM.png" /></div>
+                    <div><img id="rocket-4" src="images/Screenshot 2023-10-12 at 12.14.32 PM.png" /></div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

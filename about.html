@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austin Z Personal Portfolio</title>
+    <link href="about.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:900' rel='stylesheet'>
+    <link rel="stylesheet" href="Responsiveness.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+  <div id="dropdowm-menu" class="d-menu">
+    <ul class="d-menu-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+    <div class="link-holder">
+      <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+        src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+        alt=""></a>
+    </div>
+    <h1 id='up-arrow' onclick="slideUp()" class="up-arrow">^</h1>
+  </div>
+    <nav>
+        <div class="h-info">
+          <img id="logo" height="170px" width="170px" src="images/1567478782653-_3_.png" />
+          <diiv class="words">
+            <p class="name">Austin Zickur</p>
+            <p class="school-info">
+              BSLAS in Astronomy at University of Illinois Urbana-Champaign<br />Strong
+              Background in Aerospace Engineering (3 years)
+            </p>
+          </diiv>
+        </div>
+        <div onclick="dropDown()" id="menu" class="menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+          <a id="sociallink" target="_blank" href="https://www.linkedin.com/in/austin-zickur-8b13a8292/"><img height="30px" width="30px"
+              src="images/linkedin-logo-linkedin-icon-transparent-free-png (1).webp"
+              alt="LinkedIn"></a>
+      </nav>
+      <main>
+        <div class="section1">
+          <div class="banner"></div>
+          <div class="about-dash">
+            <div class="skills-graph">
+              <div class="skillsg">
+                <div class="skill-title"><h2>Skills</h2></div>
+                <div class="sk-graph">
+                  <div class="graph">
+                    <div id="bar-1"></div>
+                    <div id="bar-2"></div>
+                    <div id="bar-3" ></div>
+                    <div id="bar-4" > </div>
+                    <div id="bar-5"></div>
+                    <div id="bar-6"></div>
+                  </div>
+                  <div class="y-axis">
+                    <h1>Preliminary</h1>
+                    <h1>Beiginner</h1>
+                    <h1>Intermediate</h1>
+                    <h1>Proficient</h1>
+                  </div>
+                </div>
+              </div>
+              <div id="skill-cont" class="skills-container">
+                  <img onmouseover="pythonHover()" onmouseout="pythonOut()" src="images/icons8-python-94.png" width="9%" alt="">
+                  <img onmouseover="nxHover()" onmouseout="nxOut()" src="images/NX-Logo.svg" width="8%" alt="">
+                  <img onmouseover="latexHover()" onmouseout="latexOut()" src="images/icons8-latex-48.png" width="6.5%"  alt="">
+                  <img onmouseover="matlabHover()" onmouseout="matlabOut()" src="images/621f8f94654abf384c30d63c.png" width="10.5%" alt="">
+                  <img onmouseover="raspberryHover()" onmouseout="raspberryOut()" src="images/icons8-raspberry-pi-48.png" width="5.5%"  alt="">
+                  <img onmouseover="solidworksHover()" onmouseout="solidworksOut()" src="images/icons8-solidworks-48.png" width="5.5%"  alt=""> 
+              </div>
+            </div>
+            <div  class="courses">
+              <div onclick="allCourses()" class="course-title">All Courses</div>
+              <nav class="course-nav">            
+                  <div onclick="FA20()">FA20</div>
+                  <div onclick="SP21()">SP21</div>
+                  <div onclick="FA21()">FA21</div>
+                  <div onclick="SP22()">SP22</div>
+                  <div onclick="FA22()">FA22</div>
+                  <div onclick="SP23()">SP23</div>
+                  <div onclick="FA23()">FA23</div>
+              </nav>
+              <div id="courses" class="all-courses">
+                <ul class="all-list">
+                  <li id="course-1">Introduction to Astrophysics</li>
+                  <li id="course-2">Physics: Quantum</li>
+                  <li id="course-3">Physics: Thermal</li>
+                  <li id="course-4">Seminar in Astronomy</li>
+                  <li id="course-5">Aerospace Dynamical Systems</li>
+                  <li id="course-6">Compressible Flow</li>
+                  <li id="course-7">Minds and Machines</li>
+                  <li id="course-8">Aerospace Control Systems</li>
+                  <li id="course-9">In-Compressible Flow</li>
+                  <li id="course-10">Mechanics of Aerospace Structures</li>
+                  <li id="course-11">Aerospace Flight Mechanics</li>
+                  <li id="course-12">Thermo-Dynamics</li>
+                  <li id="course-13">Differential Equations</li>
+                  <li id="course-14">Engineering Materials</li>
+                  <li id="course-15">Physics: Electricity & Magnetism</li>
+                  <li id="course-16">Calculus III</li>
+                  <li id="course-17">Calculus III</li>
+                  <li id="course-18">Intro Computing: Engineering</li>
+                  <li id="course-19">Physics: Mechanics</li>
+                  <li id="course-20">CAD</li>
+                  <li id="course-21">Calculus II</li>
+                  <li id="course-22">Intro to Aerospace Engineering</li>
+                  <li id="course-23">General Chemistry</li>
+                  <li id="course-24">Calculus I</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="summary-dash">
+            <div class="summary-box">
+              <div class="summary-header"><h1>About Me</h1></div>
+                <div class="paragraph-1">
+                  <div class="personal-paragraph">
+                    <p class="paragraph-p">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel orci porta 
+                      non pulvinar neque laoreet suspendisse. Dignissim diam quis enim lobortis. Eget est 
+                
+                     <br><br>
+                      Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                      id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                      sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                  </p>
+                  </div>
+                </div>
+                <div class="about-dash-scroll">
+                    <div class="skills-dash-scroll">
+                      <h1 class="sk-ttl-dash">SKILLS</h1>
+                      <p class="paragraph-skills">
+                        Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                      id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                      sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                      </p>
+                      <p class="paragraph-skills2">
+                        Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                      id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                      sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                      </p>
+                    </div>
+                    <div class="skills-dash-scroll">
+                      <h1 class="lead-ttl-dash">LEADERSHIP</h1>
+                      <div class="para-container">
+                        <p class="paragraph-skills3">
+                          Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                          id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                          sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                        </p>
+                        <p class="paragraph-skills4">
+                            Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                          id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                          sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                        </p>
+                        <p class="paragraph-skills5">
+                          Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Nibh tortor 
+                          id aliquet lectus proin nibh nisl condimentum id. Orci dapibus ultrices in iaculis nunc. Feugiat nibh 
+                          sed pulvinar proin gravida hendrerit. Rhoncus mattis rhoncus urna neque viverra. In ante metus dictum 
+                        </p>
+                      </div>
+                    </div>
+                    <div class="skills-dash-scroll">
+                    
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      </main>
+</body>
+
+</html>

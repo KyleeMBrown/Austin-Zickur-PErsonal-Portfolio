@@ -1,0 +1,658 @@
+html{
+    scroll-snap-type: y mandatory; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+
+}
+
+/*keyframes*/
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideinleft {
+    0% {
+        left: -250%;
+    }
+
+    100% {
+        left: 16%;
+    }
+}
+
+@keyframes slideoutleft {
+    0% {
+        left: 16%;
+    }
+
+    100% {
+        left: -150%;
+    }
+}
+
+/*keyframes*/
+
+/*Default style Nav*/
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.d-menu {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.nav-list {
+    margin-right: 20px;
+    background-color: rgba(255, 166, 0, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.nav-list li {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'), url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf') format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #162B6F;
+    font-family: 'Avenir';
+    padding: 10px;
+}
+
+
+.nav-list li a:hover {
+    background-color: #162b6f26;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.h-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 166, 0, 0)
+}
+
+.name {
+    font-family: 'Oswald';
+    font-size: 72px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #162B6F;
+    position: absolute;
+    bottom: 0px;
+}
+
+.school-info {
+    font-size: 16px;
+    bottom: 30px;
+    background-color: rgba(0, 128, 0, 0);
+    margin-top: 100px;
+    color: #162B6F;
+}
+
+.words {
+    background-color: rgba(255, 255, 0, 0);
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Default style Nav*/
+
+
+/*MAIN*/
+main {
+    animation: 1s fadein ease-in;
+    background-color: rgb(0, 0, 0);
+}
+
+/*MAIN*/
+
+.p-section1 {
+    display: flex;
+    justify-content: center;
+
+    background-image: url('images/wave-haikei.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.p-title {
+    position: absolute;
+
+    top: 45%;
+    font-family: 'Oswald';
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.p-section2 {
+    position: absolute;
+    display: flex;
+    border: rgba(255, 255, 0, 0) 0px solid;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(22, 43, 111, 1) 76%);
+    width: 100%;
+    min-height: 100vh;
+    scroll-snap-align: center;
+}
+
+.projects-container {
+    position: absolute;
+    border: 1px dotted rgba(255, 0, 0, 0);
+    width: 99.55%;
+    height: 77.1vh;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.p-row-1 {
+    width: 100%;
+    border: 2px rgba(255, 255, 255, 0) dotted;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.project-1 {
+    width: 23%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    transition: transform .2s ease-out;
+}
+
+
+.project-1:hover {
+    box-shadow: 2px 2px 15px black;
+    cursor: pointer;
+    transform: scale(104%)
+}
+
+.project-1:active {
+    box-shadow: 2px 2px 15px black;
+    cursor: pointer;
+    transform: scale(100%)
+}
+
+.project1-bg1 {
+    background-image: url('images/LQR .png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+    box-shadow: inset 0 0 10px black;
+
+}
+
+.project1-bg2 {
+    background-image: url('images/AE370_LF-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+}
+
+.project1-bg3 {
+    background-image: url('images/Untitled design (19).png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+}
+.project1-bg4 {
+    background-image: url('images/Rotar.png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+}
+
+.project1-bg5 {
+    background-image: url('images/Screenshot 2023-10-12 at 2.29.23 PM.png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+}
+
+.project1-bg6 {
+    background-image: url('images/IMG_0051 (1).png');
+    background-size: cover;
+    background-position: center;
+    width: 99.9%;
+    height: 100%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 18px 18px 0 0;
+}
+
+.p-txt-cont {
+    border: rgb(255, 255, 255) solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(255, 255, 255, 0.115);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    box-shadow: inset 0 0 10px black;
+}
+
+.p-txt {
+    margin: 15px;
+    color: white;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+.project-info-card {
+    position: absolute;
+    width: 68%;
+    height: 68%;
+    bottom: 5.5%;
+    left: 16%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.23);
+    backdrop-filter: blur(28px);
+    box-shadow: inset 1px 1px 30px rgba(255, 254, 254, 0.374);
+    z-index: 2;
+    display: none;
+}
+
+.p-info-title {
+    border: 2px dotted rgba(255, 0, 0, 0);
+    font-size: 36px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    text-align: center;
+    color: #162B6F;
+    text-shadow: 1px 1px 15px #ffffff;
+}
+
+.p-info-summary {
+    position: absolute;
+    border: 2px dotted rgba(255, 0, 0, 0);
+    width: 38%;
+    height: 30%;
+    bottom: 55.5%;
+    left: 16%;
+    display: flex;
+    overflow-wrap: break-word;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Oswald";
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.496);
+    background-color: rgba(0, 0, 0, 0.201);
+    border: black .5px solid;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.p-info-pdf {
+    position: absolute;
+    right: 0;
+    border-radius: 0 0 20px 0;
+    bottom: 0;
+}
+
+.p-info-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    width: 10%;
+    height: 8%;
+    border: 2px solid rgba(137, 43, 226, 0);
+    padding: 5px;
+    z-index: 0;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.899);
+    backdrop-filter: blur(28px);
+    color: #162B6F;
+    font-family: 'Oswald';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 15px #ffffff;
+    border: 2px rgb(0, 0, 0) solid;
+    transition: box-shadow .2s linear;
+    transition: transform .3s linear;
+}
+
+.p-info-back:hover {
+    border: none;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+    transform: scale(102%);
+}
+
+.project-video {
+    width: 55%;
+    height: 48%;
+    border: rgba(255, 0, 0, 0) dotted 2px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 8px;
+
+}
+
+/*Slideshwo Style Mercury*/
+
+.slideshow-1 {
+    position: absolute;
+    border: 0px solid;
+    width: 50%;
+    height: 48%;
+    bottom: 4%;
+    left: 11%;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px white;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+#right {
+    position: absolute;
+    left: 57%;
+    top: 70%;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: white;
+    background-color: #162B6F;
+    border: none;
+    transition: .2s background-color ease;
+    z-index: 1;
+
+}
+
+#right:hover {
+    background-color: white;
+    color: #162B6F;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+}
+
+#right:active {
+    box-shadow: 0px 0px 10px #162B6F;
+}
+
+#left {
+    transform: rotate(180deg);
+    left: 13%;
+    top: 70%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: white;
+    background-color: #162B6F;
+    border: none;
+    transition: .2s background-color ease;
+    z-index: 1;
+}
+
+#left:hover {
+    background-color: white;
+    color: #162B6F;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+}
+
+#left:active {
+    box-shadow: 0px 0px 10px #162B6F;
+}
+
+
+.slideshow-1 div {
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#rocket-1 {
+    width: 280px;
+    top: 3%;
+    position: absolute;
+    left: 21%;
+}
+
+#rocket-2{
+    width: 400px;
+    margin-bottom: 25px;
+    margin-left: 9.5%;
+}
+
+#rocket-3{
+    width: 300px;
+    top: 30%;
+    position: absolute;
+    left: 9%;
+}
+
+#rocket-4{
+    width: 300px;
+    top:31%;
+    position: absolute;
+    left: 110%;
+}
+
+
+.slideshow-2 {
+    position: absolute;
+    border: 0px solid;
+    width: 37%;
+    height: 80%;
+    bottom: 4%;
+    right: 1%;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px white;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.slideshow-2 div {
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+#right-2 {
+    position: absolute;
+    right: 2%;
+    top: 55%;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: white;
+    background-color: #162B6F;
+    border: none;
+    transition: .2s background-color ease;
+    z-index: 1;
+}
+
+#right-2:hover {
+    background-color: white;
+    color: #162B6F;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+}
+
+#right-2:active {
+    box-shadow: 0px 0px 10px #162B6F;
+}
+
+
+
+#left-2 {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 34.1%;
+    top: 55%;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: white;
+    background-color: #162B6F;
+    border: none;
+    transition: .2s background-color ease;
+    z-index: 1;
+}
+
+#left-2:hover {
+    background-color: white;
+    color: #162B6F;
+    box-shadow: 1px 1px 10px white;
+    cursor: pointer;
+}
+
+#left-2:active {
+    box-shadow: 0px 0px 10px #162B6F;
+}
+
+#full-screen{
+    position:absolute;
+    right: 10px;
+    top:10px;
+    background: none;
+    border:none;
+}
+
+#full-screen img:hover {
+    transform: scale(108%);
+    cursor: pointer;
+}
+
+
+#full-screen img:active {
+    transform: scale(100%);
+    cursor: pointer;
+}
+
+#exit-full-screen{
+    position:absolute;
+    right: 10px;
+    top:10px;
+    background: none;
+    border:none;
+    display:none;
+}
+
+#exit-full-screen img:hover {
+    transform: scale(108%);
+    cursor: pointer;
+}
+
+
+#exitfull-screen img:active {
+    transform: scale(100%);
+    cursor: pointer;
+}
+
+.download1,
+.download2,
+.download3,
+.download4,
+.download5,
+.download6{
+    display: none;
+
+}
+
+
+/*Slideshow Style Mercury*/
+
+@keyframes fullScreen {
+    0%{
+        left:16%
+    }
+    100%{
+        left:0;
+        bottom:0;
+        width: 100%;
+        height: 78%;
+    }
+}
+@keyframes fullScreenexit {
+    0%{
+        left:0;
+        bottom:0;
+        width: 100%;
+        height: 78%;
+     
+    }
+    100%{
+    width: 68%;
+    height: 68%;
+    bottom: 5.5%;
+    left: 16%;
+}
+}
+
