@@ -962,3 +962,21 @@ const SP23 = () => {
     course24.style.display='flex'
 
  }
+   
+ 
+window.addEventListener("resize", function() {
+checkWidth()
+} )
+
+const checkWidth =() => {
+    if(window.innerWidth<=428){
+        var Box1 = document.getElementById('box-1')
+        return Box1.onmouseout='', 
+       
+        console.log(Box1.onmouseout)
+        
+    }else{
+        return
+    }
+}
+

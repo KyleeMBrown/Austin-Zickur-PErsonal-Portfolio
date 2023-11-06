@@ -601,6 +601,10 @@ width: 32%;
         font-size: 7px;
         width: 95%;
     }
+    .box-title {
+        font-size: 11px;
+        padding: 15px;
+    }
     .controls-bullets,
     .applied-structures-bullets,
     .fluid-mechanics-bullets,
@@ -608,6 +612,12 @@ width: 32%;
         bottom: 30%;
         left: 10%;
         width: 78%;
+        text-align: center;
+    }
+
+    .section-1,
+    .section-2{
+        animation: none;
     }
     .d-menu-list li a{
 
