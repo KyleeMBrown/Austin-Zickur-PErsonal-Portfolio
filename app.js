@@ -1013,3 +1013,4 @@ const Control4 = () => {
     appliedStructurespage.style.display = 'flex';
 
 }
+

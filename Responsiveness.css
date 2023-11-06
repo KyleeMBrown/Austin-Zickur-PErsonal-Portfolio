@@ -600,12 +600,10 @@ width: 32%;
         font-family: 'Oswald';
         color: #162B6F;
         padding:15px;
+        z-index: 2;
     }
    
-    .button:active{
-        background-color:#162B6F;
-        color: white;
-    }
+
 
 
 
