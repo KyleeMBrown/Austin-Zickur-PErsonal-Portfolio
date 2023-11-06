@@ -982,6 +982,8 @@ const Control = () => {
     var bullets = document.getElementById('list-b')
 
     bullets.style.fontSize='9px'
+    bullet1.style.paddingRight='5px'
+    bullet3.style.paddingRight='5px'
     bullet1.innerHTML='Matrix Operations, Spectral Theory, & State Space'
     bullet2.innerHTML='State Feedback, LQR, & Observability'
     bullet3.innerHTML='Engineering Requirements & Data Analysis'
@@ -1030,6 +1032,14 @@ const Control4 = () => {
     fluidMechanicspage.style.display = 'none';
     var appliedStructurespage = document.getElementById('applied-structures');
     appliedStructurespage.style.display = 'flex';
+    var bullet1 = document.getElementById('b-1')
+    var bullet2 = document.getElementById('b-2')
+    var bullet3 = document.getElementById('b-3')
+    var bullets = document.getElementById('list-b')
 
+
+    bullet1.innerHTML='Structural Analysis'
+    bullet2.innerHTML='Loads & Distribution'
+    bullet3.innerHTML='Fatigue & Basic Fracture Mechanics'
 }
 
