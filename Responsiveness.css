@@ -601,6 +601,19 @@ width: 32%;
         font-size: 7px;
         width: 95%;
     }
+
+    .box:hover {
+        transform: none
+    }
+
+    .box:active{
+        transform: scale(108%);
+        background-color: rgb(255, 255, 255);
+        color: #162B6F;
+        box-shadow: 1px 1px 10px black;
+        cursor: pointer;
+    }
+
     .box-title {
         font-size: 11px;
         padding: 15px;

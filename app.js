@@ -1,4 +1,6 @@
 
+
+
 //Main Points Reveal/Hide Functions
 
 function revealControlinfo() {
@@ -964,19 +966,5 @@ const SP23 = () => {
  }
    
  
-window.addEventListener("resize", function() {
-checkWidth()
-} )
 
-const checkWidth =() => {
-    if(window.innerWidth<=428){
-        var Box1 = document.getElementById('box-1')
-        return Box1.onmouseout='', 
-       
-        console.log(Box1.onmouseout)
-        
-    }else{
-        return
-    }
-}
 
