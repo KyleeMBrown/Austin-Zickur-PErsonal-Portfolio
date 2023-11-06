@@ -966,5 +966,50 @@ const SP23 = () => {
  }
    
  
+const Control = () => {
+    var controlSystemspage = document.getElementById('control');
+    controlSystemspage.style.display = 'flex';
+    var simulationPage = document.getElementById('simulation');
+    simulationPage.style.display = 'none';
+    var fluidMechanicspage = document.getElementById('fluid-mechanics');
+    fluidMechanicspage.style.display = 'none';
+    var appliedStructurespage = document.getElementById('applied-structures');
+    appliedStructurespage.style.display = 'none';
 
+}
 
+const Control2 = () => {
+    var controlSystemspage = document.getElementById('control');
+    controlSystemspage.style.display = 'none';
+    var simulationPage = document.getElementById('simulation');
+    simulationPage.style.display = 'flex';
+    var fluidMechanicspage = document.getElementById('fluid-mechanics');
+    fluidMechanicspage.style.display = 'none';
+    var appliedStructurespage = document.getElementById('applied-structures');
+    appliedStructurespage.style.display = 'none';
+
+}
+
+const Control3 = () => {
+    var controlSystemspage = document.getElementById('control');
+    controlSystemspage.style.display = 'none';
+    var simulationPage = document.getElementById('simulation');
+    simulationPage.style.display = 'none';
+    var fluidMechanicspage = document.getElementById('fluid-mechanics');
+    fluidMechanicspage.style.display = 'flex';
+    var appliedStructurespage = document.getElementById('applied-structures');
+    appliedStructurespage.style.display = 'none';
+
+}
+
+const Control4 = () => {
+    var controlSystemspage = document.getElementById('control');
+    controlSystemspage.style.display = 'none';
+    var simulationPage = document.getElementById('simulation');
+    simulationPage.style.display = 'none';
+    var fluidMechanicspage = document.getElementById('fluid-mechanics');
+    fluidMechanicspage.style.display = 'none';
+    var appliedStructurespage = document.getElementById('applied-structures');
+    appliedStructurespage.style.display = 'flex';
+
+}

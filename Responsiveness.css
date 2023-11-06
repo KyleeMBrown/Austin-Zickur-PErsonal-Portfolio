@@ -575,6 +575,40 @@ width: 32%;
     .section-2{
          animation: none;
     }
+    .box{
+        Display:none;
+    }
+    .points{
+     display: flex;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 2%;
+     
+    }
+    .button{
+        display: inline;
+        width: 30%;
+        height: 100px;
+        border-radius: 50px;
+        border: none;
+        margin-bottom: 25px;
+        font-family: 'Oswald';
+        color: #162B6F;
+        padding:15px;
+    }
+   
+    .button:active{
+        background-color:#162B6F;
+        color: white;
+    }
+
+
+
 }
 
 

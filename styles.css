@@ -659,3 +659,6 @@ main {
     }
 }
 
+.button{
+    display: none;
+}
