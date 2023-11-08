@@ -810,10 +810,7 @@ width: 32%;
     #skill-cont img{
        margin-bottom: 18%;
     }
-    .all-courses{
-        margin-bottom: 14%;
-        height: 45%;
-    }
+  
  
     .y-axis{
         font-size: 2.5px;
@@ -875,6 +872,21 @@ width: 32%;
        }
        
    
+}
+@media screen and (max-width:390px){
+    .all-courses{
+        margin-top: 10%;
+        margin-bottom: 14%;
+    }
+}
+
+@media screen and (max-width:428px){
+
+    .all-courses{
+        margin-bottom: 14%;
+        height: 45%;
+    }
+    
 }
 
     /*Animations*/
