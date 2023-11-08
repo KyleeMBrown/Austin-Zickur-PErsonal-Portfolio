@@ -813,7 +813,7 @@ width: 32%;
         font-size: 2.5px;
     }
     .y-axis :nth-child(1){
-        bottom: 5%;
+        bottom: 6%;
     }
 
     .download1,
@@ -840,6 +840,9 @@ width: 32%;
     }
     .form-wrapper{
         top: 25%;
+    }
+    .summary-dash{
+        height:100%;
     }
     .personal-paragraph{
         width: 22%;
