@@ -331,6 +331,19 @@ width: 32%;
     top: 16.1%; 
 }
    /*About*/
+
+
+   #right-para{
+    font-size:15px;
+   }
+   .para{
+    font-size: 17px;
+   }
+   .para:hover{
+    background-color: transparent;
+    transition:none;
+    box-shadow: 1px 1px 5px;
+   }
 }
 @media screen and (max-width: 1100px) {
         /*HomePage*/
@@ -357,8 +370,41 @@ width: 32%;
             font-size: 6px;
         }
         /*About*/
+        .para1{
+            overflow-y:scroll;
+            overflow-x: hidden;
+            margin-top: 25px;
+            align-items: start;
+        }
+    
+.para1::-webkit-scrollbar {
+    width: 8px;
+  }
+
+        .para1::-webkit-scrollbar-track {
+            background-color:#1b325720; 
+        }
         
-}
+          }
+          .para1::-webkit-scrollbar-thumb {
+            background:#E84A27; 
+            border-radius: 15px;
+            border: 1px white solid;
+          }
+          
+        .para1:hover{
+            background:none;
+            transition: none;
+            box-shadow: 1px 1px 5px;
+        }
+        #left-para{
+            font-size: 12.5px;
+        }
+        #lead{
+            font-size: 15px;
+        } 
+      
+     
 
 
 
@@ -484,6 +530,21 @@ width: 32%;
         .email{
             width:90%;
         }
+        .personal-paragraph{
+            left:3%;
+        }
+        #lead{
+            font-size: 14px;
+        }
+        .para{
+            font-size: 15px;
+        }
+        .summary-dash{
+            height:85%;
+        }
+        .header-scroll{
+            font-size:37px;
+        }
 }
 
 
@@ -602,11 +663,32 @@ width: 32%;
         padding:15px;
         z-index: 2;
     }
-   
+    .personal-paragraph{
+        width: 24%;
+        left:4.5%;
+        font-size:15px;
+        top:25%;
+       }
+.summary-header{
+    font-size: 15px;
+}
 
+.summary-dash{
+    height:87%;
+}
 
-
-
+#left-para{
+    font-size:13px;
+}
+#lead{
+    font-size: 11px;
+}
+#doing{
+    font-size:25px;
+}
+.para{
+    font-size: 12px;
+}
 }
 
 
@@ -750,12 +832,39 @@ width: 32%;
     .file{
         font-size: 6px;
     }
+    .summary-header{
+        font-size: 12px;
+    }
     .contact-me div{
         font-size: 15px;
     }
     .form-wrapper{
         top: 25%;
     }
+    .personal-paragraph{
+        width: 22%;
+        left:4.3%;
+        font-size:15px;
+        top:21%;
+        height:58%;
+       }
+       #lead{
+        font-size:10.2px;
+       }
+       #doing{
+        font-size: 20px;
+        margin-top: 45px;
+       }
+       .para1{
+        margin-bottom: 25px;
+       }
+       #now{
+        margin-top: 65px;
+       }
+       .para{
+        font-size: 10.4px;
+       }
+       
    
 }
 

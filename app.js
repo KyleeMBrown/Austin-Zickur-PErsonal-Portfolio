@@ -565,7 +565,7 @@ const allCourses = () => {
     course14.style.display='flex'
     course15.style.display='flex'
     course16.style.display='flex'
-    course17.style.display='flex'
+    course17.style.display='none'
     course18.style.display='flex'
     course19.style.display='flex'
     course20.style.display='flex' 
